@@ -268,7 +268,7 @@ app.post("/tips", async (req, res) =>{
 });
 
 
-// MY-TIPS releted APIs
+// My tips releted APIs
 
 app.get('/tips', async (req, res) => {
   const email = req.query.email;
